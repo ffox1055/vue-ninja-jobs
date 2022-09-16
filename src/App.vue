@@ -17,7 +17,9 @@ export default {
     back() {
       this.$router.go(-1)
     },
-    forward() {}
+    forward() {
+      this.$router.go(+1)
+    }
   }
 }
 </script>
